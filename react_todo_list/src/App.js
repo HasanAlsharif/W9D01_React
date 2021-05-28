@@ -3,19 +3,31 @@
 // 3.open on chrome (localhost:3000)
 // Best practice name the cpmponnents pascal case (ex.App)
 
+
 import React from 'react';
 import './App.css';
+
+// components
+import List from './components/List'
+
+
+
+
+
+// =========================== APP ==========================================
 
 const App = () => {
 
   // ex. const name = 'jack' // const age = 30
 
+  const todos = [{todo: "wake up", id: 1}, {todo: "breakfast", id: 2}, {todo: "study", id: 3}]
 
   return (
     <>
      
     <div className="App">
      <h1>Todo My List</h1>
+     <List/>
     </div>
     </>
   );
