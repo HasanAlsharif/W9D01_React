@@ -15,7 +15,7 @@ const App = () => {
     <>
      
     <div className="App">
-     <h1>Todo List</h1>
+     <h1>Todo My List</h1>
     </div>
     </>
   );
