@@ -1,3 +1,12 @@
+/* 
+1-you make one CSS
+2-you specifiy all css for App and other components 
+3-you call these css in each js files of each compnent 
+4- you do not call the css for a compnent in the app (in app you just call the component sick)
+
+*/
+
+
 .App {
   text-align: center;
 }

@@ -19,15 +19,26 @@ import List from './components/List'
 const App = () => {
 
   // ex. const name = 'jack' // const age = 30
+  
 
   const todos = [{todo: "wake up", id: 1}, {todo: "breakfast", id: 2}, {todo: "study", id: 3}]
-
+  const age = 30
   return (
+    // <span> </span> does not take whole line not like paragraph
+    // <span> M </span> <span> a </span> <span> x </span> ==> Max
+    // if you use map() or any llisting func , you should use a prop (key) for each elem
+    // === Passing Props===
+    // the props are passed here while calling the compoenent or any html attr. inside it ex. <p myAge = {age}
+    // now if you passed a prop inside a component you back to that components js then add the word props inside the functio (as argument t) ex: const compnent =(props) => 
+    // you can now use these props inside the (component js) by using ex: props.myAge 
+    // you can use ES6 vid
+    // how to return react component inside a map() vid
     <>
      
     <div className="App">
-     <h1>Todo My List</h1>
-     <List/>
+     <h1>Todo List</h1>
+     <List Mytodos = {todos} />
+     
     </div>
     </>
   );

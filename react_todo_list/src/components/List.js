@@ -1,14 +1,14 @@
 import React from 'react';
 
-const List = () => {
+const List = (props) => {
 
   // ex. const name = 'jack' // const age = 30
 
 
   return (
     <>
-     <div className="App">
-     <h1>Compnenrt1</h1>
+     <div>
+     <ul></ul>
     </div>
     </>
   );

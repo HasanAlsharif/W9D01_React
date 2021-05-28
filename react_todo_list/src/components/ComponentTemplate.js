@@ -23,3 +23,6 @@ export default Component;
 // --> taype in: import Compnent from './components/Compente' 
 // then call it inside app function -- > just type in: <Component/> 
 // if you call more <Component/>  it wil repeat the text inside or whatevevr value inside
+
+
+// if you have more than one func inside and you want to export just one thing (one function) and not all of this component refere to vid
