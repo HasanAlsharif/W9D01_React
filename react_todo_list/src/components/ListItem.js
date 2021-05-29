@@ -8,7 +8,7 @@ const ListItem = (props) => {
   return (
     <>
      <div>
-     <li> </li>
+     <li> {props.id} </li>
     </div>
     </>
   );

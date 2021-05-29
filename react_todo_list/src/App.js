@@ -9,7 +9,7 @@ import './App.css';
 
 // components
 import List from './components/List'
-
+import ListItem from './components/ListItem'
 
 
 
@@ -38,7 +38,7 @@ const App = () => {
     <div className="App">
      <h1>Todo List</h1>
      <List Mytodos = {todos} />
-     
+     <ListItem todo = {''} id = {'22'} />
     </div>
     </>
   );
