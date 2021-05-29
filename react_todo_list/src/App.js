@@ -38,7 +38,7 @@ const App = () => {
     <div className="App">
      <h1>Todo List</h1>
      <List Mytodos = {todos} />
-     <ListItem todo = {''} id = {'22'} />
+     <ListItem todo = {'todos'} id = {'22'} />
     </div>
     </>
   );
